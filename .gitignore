@@ -1,8 +1,27 @@
+# Nix files
 /_build
 /.direnv
-/.env
+
+# Environment variables
+.env
 /.envrc
-/.venv
-/env
-/venv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Other
+.DS_Store
 
