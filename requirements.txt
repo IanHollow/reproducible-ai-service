@@ -1,6 +1,12 @@
-fastapi >= 0.115.12
-uvicorn[standard] >= 0.34.0
-transformers >= 4.51.3
-torch >= 2.5.1
-python-dotenv >= 1.1.0
-huggingface_hub[hf_xet] >= 0.30.2
+fastapi
+uvicorn
+python-dotenv
+transformers[torch]
+torch
+requests
+pytest
+httpx
+huggingface_hub[hf_xet]
+prometheus-client
+jinja2
+slowapi

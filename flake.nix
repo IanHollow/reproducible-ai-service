@@ -39,6 +39,11 @@
                   python-dotenv
                   huggingface-hub
                   huggingface-hub.optional-dependencies.hf_xet
+                  prometheus-client
+                  jinja2
+                  slowapi
+                  pytest
+                  httpx
                 ]
               ))
 

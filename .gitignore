@@ -24,4 +24,8 @@ build/
 
 # Other
 .DS_Store
+logs/ # Ignore log directory (REQ-028)
 
+# Logs
+*.log
+logs/

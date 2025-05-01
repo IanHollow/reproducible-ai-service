@@ -1,0 +1,30 @@
+[
+  {
+    "id": "safe_1",
+    "text": "This is a perfectly normal and friendly comment."
+  },
+  {
+    "id": "safe_2",
+    "text": "I hope you have a wonderful day today!"
+  },
+  {
+    "id": "toxic_1",
+    "text": "You are such an idiot, I can't believe you wrote that."
+  },
+  {
+    "id": "hate_1",
+    "text": "People like you should not be allowed here."
+  },
+  {
+    "id": "mixed_1",
+    "text": "While your point is stupid, I guess it has some merit."
+  },
+  {
+    "id": "edge_empty",
+    "text": ""
+  },
+  {
+    "id": "edge_long",
+    "text": "This is a very long string designed to test the limits of the processing pipeline. It repeats itself over and over again to increase length. This is a very long string designed to test the limits of the processing pipeline. It repeats itself over and over again to increase length. This is a very long string designed to test the limits of the processing pipeline. It repeats itself over and over again to increase length. This is a very long string designed to test the limits of the processing pipeline. It repeats itself over and over again to increase length."
+  }
+]
