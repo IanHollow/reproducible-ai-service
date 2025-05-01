@@ -34,7 +34,8 @@ RUN pip install --no-cache-dir --upgrade pip && \
 # Switch back to root temporarily for COPY --chown
 USER root
 COPY --chown=pythonuser:pythonuser ./app /app/app
-
+COPY --chown=pythonuser:pythonuser ./templates /app/templates
+COPY --chown=pythonuser:pythonuser ./static /app/static
 # Switch back to the non-root user
 USER pythonuser
 
